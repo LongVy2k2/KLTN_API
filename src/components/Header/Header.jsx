@@ -190,7 +190,7 @@ function Header() {
       </div>
       <div className={style.nav_item}>
         {!isLogin && (
-          <button onClick={() => (window.location.href = "/login")}>
+          <button onClick={() => (navigate("/login"))}>
             Luyện tập ngay
           </button>
         )}
